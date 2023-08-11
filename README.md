@@ -1,5 +1,5 @@
-Bu mənim "Linkedİn" layihəmdir...
+Bu menim linkedin lahiyemdir..
 
-Layihəyə baxmaq üçün aşağıdakı linkə keçid edin.
+Sayta baxmaq üçün aşağıdakı linkə keçid edin..
 
 https://vusal-seferov-linkedin-clone2.netlify.app

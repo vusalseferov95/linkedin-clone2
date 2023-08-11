@@ -2,216 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linkedin Clone</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>LinedIn</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Header Start-->
-    <header class="header">
-        <div class="container">
-            <!-- Header Content Start-->
-            <div class="header-content">
-                <!-- Header Inner Start-->
-                <div class="header-inner">
-                    <a href="#" class="logo">
-                        <img src="./assets/images/linkedin-logo.svg" alt="">
-                    </a>
+    <!--Start Grid Container-->
+    <div class="grid-container grid gtc-auto gtr-60-1000 padd-20 gap30">
 
-                    <!-- Search Start-->
-                    <div class="search">
-                        <i class="icon icon-md icon-search"></i>
-                        <input type="text" placeholder="Search...">
-                    </div>
-                    <!-- Search End -->
 
-                    <!-- Navbar Start-->
-                    <nav class="navbar">
-                        <a href="#" class="active">
-                            <i class="icon icon-home icon-lg"></i>
-                            <span>Home</span>
-                        </a>
-                        <a href="#">
-                            <i class="icon icon-users icon-lg"></i>
-                            <span>Users</span>
-                        </a>
-                        <a href="#">
-                            <i class="icon icon-briefcase icon-lg"></i>
-                            <span>Jobs</span>
-                        </a>
-                        <a href="#">
-                            <i class="icon icon-message icon-lg"></i>
-                            <span>Message</span>
-                        </a>
-                        <a href="#">
-                            <i class="icon icon-bell icon-lg"></i>
-                            <span>Notification</span>
-                        </a>
-                        <a href="#">
-                            <i class="icon icon-grid icon-lg"></i>
-                        </a>
-                    </nav>
-                    <!-- Navbar End -->
+        <!--Start Page Head-->
+        <div class=" item1 item1-gc14 flex align-center jus-between">
+            <div class="flex align-center jus-between gap20">
+                <div>
+                    <figure>
+                        <img src="assets/images/linkedin-logo.png" alt="linkdin-logo">
+                    </figure>
                 </div>
-                <!-- Header Inner End -->
-
-                <!-- Header Profile Start-->
-                <div class="header-profile">
-                    <div>
-                        <p>Vusal Seferov</p>
-                        <small>Online</small>
-                    </div>
-                    <div class="image">
-                        <figure>
-                            <img class="img-cover" src="./assets/images/prof-pic.svg" alt="">
-                        </figure>
-                        <i class="icon icon-xs icon-chevron-up"></i>
-                    </div>
+                <div class="flex align-center">
+                    <figure class="w-312 h-32">
+                        <img src="assets/icons/search.png" alt="icon-search" class="icon-sm">
+                        <input type="text" placeholder="Search..." class="back-tr backclr-222 br-4 br-none">
+                    </figure>
                 </div>
-                <!-- Header Profile End -->
             </div>
-            <!-- Header Content End -->
+            <nav class="flex align-center jus-between gap30">
+
+                <a href="#" class="active flex align-center jus-between">
+                    <figure>
+                        <img src="assets/icons/home.png" alt="icon-home" class="icon-md">
+                    </figure>
+                    <span>Home</span>
+                </a>
+
+                <a href="#" class="active flex align-center jus-between">
+                    <figure>
+                        <img src="assets/icons/home.png" alt="icon-home" class="icon-md">
+                    </figure>
+                    <span class="hidden">Home</span>
+                </a>
+
+                <a href="#" class="active flex align-center jus-between">
+                    <figure>
+                        <img src="assets/icons/home.png" alt="icon-home" class="icon-md">
+                    </figure>
+                    <span class="hidden">Home</span>
+                </a>
+
+                <a href="#" class="active flex align-center jus-between">
+                    <figure>
+                        <img src="assets/icons/home.png" alt="icon-home" class="icon-md">
+                    </figure>
+                    <span class="hidden">Home</span>
+                </a>
+
+
+                <a href="#" class="active flex align-center jus-between">
+                    <figure>
+                        <img src="assets/icons/home.png" alt="icon-home" class="icon-md">
+                    </figure>
+                    <span class="hidden">Home</span>
+                </a>
+
+
+                <a href="#" class="active flex align-center jus-between">
+                    <figure>
+                        <img src="assets/icons/home.png" alt="icon-home" class="icon-md">
+                    </figure>
+                    <span class="hidden">Home</span>
+                </a>
+
+
+            </nav>
+            <div class="flex align-center jus-end">
+                <div>
+                    <span>Vusal Seferov</span>
+                    <span>Online</span>
+                </div>
+                <figure>
+                    <img src="assets/images/vs-prolile.jpeg" alt="prof-pic" class="icon-md br-26">
+                </figure>
+                <figure>
+                    <img src="assets/icons/chevron-down.png" alt="icon-shewron-down">
+                </figure>
+            </div>
         </div>
-    </header>
-    <!-- Header End -->
+        <!--End Page Head-->
 
-    <div class="container">
-        <main class="main-content">
-            <!--Page left start-->
-            <aside class="page-left">
-                <div class="box card-profile">
-                    <div class="head">
-                        <figure>
-                            <img class="img-cover" src="./assets/images/prof-pic.svg" alt="">
-                        </figure>
-                        <p class="text-md">Vusal Seferov</p>
-                        <small class="text-mute text-sm">Accountant</small>
-                    </div>
-                    <hr>
-                    <div class="item">
-                        <p class="text-sm">Who viewed your profile</p>
-                        <span class="text-primary text-sm">90</span>
-                    </div>
-                    <div class="item">
-                        <p class="text-sm">Views of your post</p>
-                        <span class="text-primary text-sm">627</span>
-                    </div>
-                    <br>
-                    <br>
-                    <p>NEWEST</p>
-                    <div class="newest">
-                        
-                        <br>
-                        <p>#money</p>
-                        <p>#economy</p>
-                        <p>#markets</p>
-                        <p>#futurism</p> 
-                    </div>
-                    <br>
-                    <br>
-                    <div class="group">
-                        <div>
-                            <p>GROUP</p>
-                        </div>
-                        <div class="group-active">
-                            <span>Active</span>
-                            <figure>
-                                <img src="assets/icons/chevron-down.png" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="users-blue">
-                    <div>
-                        <figure>
-                            <img src="assets/icons/users-blue.png" alt="">
-                        </figure>
-                        <span>Android Developers Group</span>
-                    </div>
-                    <div>
-                        <figure>
-                            <img src="assets/icons/users-blue.png" alt="">
-                        </figure>
-                        <span>User Interface</span>
-                    </div>
-                    <div>
-                        <figure>
-                            <img src="assets/icons/users-blue.png" alt="">
-                        </figure>
-                        <span>User Experience</span>
-                    </div>
-                    <div>
-                        <figure>
-                            <img src="assets/icons/users-blue.png" alt="">
-                        </figure>
-                        <span>Design Thinking</span>
-                    </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="add-event">
-                        <span>Add Event</span>
-                            <figure>
-                                <img src="assets/icons/plus.png" alt="plus-button">
-                            </figure>
-                    </div>
-                    
-                    
-                </div>    
-            </aside>
-            <!--Page left end-->
+        <div class="item2">2</div>
+        
+        <div class="item3">3</div>
 
-            <!--Page contetnt start-->
-            <section class="page-content">
-                <div class="create-box">
-                    <div>
-                        <input type="text" name="" id="" placeholder="Create Post...">
-                    </div>
-                    <!-- Navbar Start-->
-                    <nav class="navbar-2">
-                        <div>
-                        <div class="photo">
-                            <figure>
-                                <img src="assets/icons/photo.png" alt="icon-photo">
-                            </figure>
-                            <span>Photo</span>
-                        </div>
-                        <div class="video">
-                            <figure>
-                                <img src="assets/icons/video.png" alt="icon-video">
-                            </figure>
-                            <span>Video</span>
-                        </div>
-                        <div class="event">
-                            <figure>
-                                <img src="assets/icons/event.png" alt="icon-event">
-                            </figure>
-                            <span>Event</span>
-                        </div>
-                        <div class="write">
-                            <figure>
-                                <img src="assets/icons/write.png" alt="icon-write">
-                            </figure>
-                            <span>Write Articles</span>
-                        </div>
-                        </div>
-                    </nav>
-                    <!-- Navbar End -->
-                </div> 
-            </section>
-            <!--Page contetnt end-->
+        <div class="item4">4</div>
 
-            <!--Page right start-->
-            <aside class="page-right">
-                <div class="box">
-                    Page Right
-                </div> 
-            </aside>
-            <!--Page right end-->
-        </main>
-    </div>
-
+      </div>
+      <!--Start Grid Container-->
+    
 </body>
 </html>
