@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.icon-xs {
+    width: 12px;
+    height: 12px;
+}
+
 .icon-sm {
     width: 18px;
     height: 18px;
@@ -17,4 +22,9 @@
 .icon-md {
     width: 24px;
     height: 24px;
+}
+
+.icon-lg {
+    width: 52px;
+    height: 52px;
 }

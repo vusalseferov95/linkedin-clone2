@@ -1,8 +1,16 @@
 .grid-container {
+    margin: 0 auto;
+    width: 1180px;
+    height: 1130px;
     background-color: red;
   }
   
   .grid-container > div {
     background-color: yellow;
     text-align: center;
+    padding: 10px;
+  }
+
+  .icon-search:focus {
+    outline: none;
   }
