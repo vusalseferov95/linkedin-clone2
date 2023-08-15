@@ -1,14 +1,14 @@
 .grid-container {
     margin: 0 auto;
     width: 1180px;
-    height: 1130px;
-    background-color: red;
+    height: 1170px;
+    background-color: yellow;
   }
   
   .grid-container > div {
-    background-color: yellow;
+    background-color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
   }
 
   .icon-search:focus {
