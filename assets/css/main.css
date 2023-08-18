@@ -2,7 +2,6 @@
     margin: 0 auto;
     width: 1180px;
     height: 1170px;
-    background-color: yellow;
   }
   
   .grid-container > div {
@@ -11,6 +10,10 @@
     padding: 5px;
   }
 
-  .icon-search:focus {
-    outline: none;
+  .massaging {
+    width: 270px;
+    height: 56px;
+    fill: linear-gradient(353deg, #069 0%, #009099 100%);
+    background-color: var(--SkyBlue);
+    border-radius: 10px;  
   }
